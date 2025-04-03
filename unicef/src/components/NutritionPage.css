@@ -1,0 +1,201 @@
+/* Conteneur principal avec fond en dégradé élégant */
+.nutrition-container {
+    padding: 40px 20px;
+    background: #F4FAFF;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    min-height: 100vh;
+  }
+  
+  /* Titre principal */
+  .nutrition-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  /* Disposition côte à côte centrée */
+  .side-by-side {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Panneau de sélection */
+  .selection-panel {
+    flex: 1;
+    max-width: 300px;
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  button.region-button{
+    background: #5EB1EF;
+  }
+  button.region-button:hover{
+    background: #0090FF;
+  }
+  button.district-button{
+    background: color(display-p3 0 0.478 0.2 / 0.55);
+  }
+  button.district-button:hover{
+    background:#30A46C;
+  }
+  /* Boutons Région et District */
+  .region-button,
+  .district-button {
+    display: block;
+    width: 100%;
+    background: #C4E8D1;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .region-button:hover,
+  .district-button:hover {
+    background: #27ae60;
+  }
+  
+  /* Liste des districts */
+  .district-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  /* Panneau de graphique avec fond blanc contrastant */
+  .chart-panel {
+    flex: 2;
+    background: #fff;
+    color: #2c3e50;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    min-height: 500px;
+  }
+  
+  /* Conteneur combinant carte d'information et graphique */
+  .chart-and-card {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  /* Carte d'informations du district */
+  .district-card {
+    flex: 1;
+    max-width: 300px;
+    background: #ecf0f1;
+    color: #2c3e50;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .district-card h3 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Conteneur du graphique et des contrôles */
+  .chart-wrapper-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  /* Contrôles positionnés au-dessus du graphique avec fond semi-transparent */
+  .controls {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .year-buttons button,
+  .chart-type-buttons button {
+    background: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .year-buttons button:hover,
+  .chart-type-buttons button:hover {
+    background: #29b93f;
+  }
+  
+  .selected {
+    background: #1abc9c !important;
+  }
+  
+  /* Zone du graphique centrée avec taille contenue */
+  .chart-wrapper {
+    flex: 1;
+    min-height:100%;
+    max-width: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  /* Message d'information */
+  .message {
+    text-align: center;
+    font-style: italic;
+    color: #ecf0f1;
+  }
+  /* Animation pour le titre */
+@keyframes titleFadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px) scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+  
+  /* Titre principal amélioré avec animation et ombre portée */
+  .nutrition-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    animation: titleFadeIn 1.5s ease-out;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    color:black;
+  }
+  h2{
+    color: black;
+  }
+  .chart-wrapper{
+    width: 95%;
+  }

@@ -1,0 +1,142 @@
+/* Container des cadres */
+.frames-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 20px; /* Ajouter un peu de padding autour des cadres */
+  gap: 30px; /* Ajouter de l'espace entre les cadres */
+  width: 97%;
+  height: 293px;
+}
+
+/* Cadres individuels */
+.frame {
+  width: 16%; /* Augmenter la largeur des cadres pour les agrandir */
+  background-color: white; /* Couleur de fond douce */
+  padding: 50px; /* Augmenter le padding pour rendre les cadres plus grands */
+  border-radius: 15px; /* Coins arrondis pour un meilleur rendu visuel */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Ombre plus marquée pour plus de visibilité */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ajouter une transition pour les effets de survol */
+  cursor: pointer; /* Changer le curseur au survol pour indiquer l'interaction */
+}
+
+/* Augmenter la taille des titres */
+.frame h3 {
+  font-size: 24px; /* Augmenter la taille du texte */
+  color: #2c3e50; /* Couleur sombre pour une bonne lisibilité */
+  margin-bottom: 20px; /* Espacer le titre du contenu */
+  font-weight: bold;
+}
+
+/* Effet de survol pour les cadres */
+.frame:hover {
+  transform: scale(1.05); /* Zoom sur le cadre au survol */
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3); /* Ombre plus marquée pour attirer l'attention */
+}
+
+/* Ajouter des styles pour rendre les titres encore plus visibles */
+.frame:hover h3 {
+  color: #e63946; /* Changer la couleur du titre lors du survol */
+}
+
+/* Éviter la marge après le dernier cadre */
+.frame:last-child {
+  margin-right: 0;
+}
+
+/* Autres ajustements si nécessaire */
+
+
+/* Effet de survol pour les cadres */
+.frame:hover {
+  transform: scale(1.05); /* Ajouter un effet de zoom sur survol */
+}
+
+/* Autres styles (navbar, contenu principal) */
+
+/* Navbar */
+
+
+/* Menu de la navbar */
+.navbar-menu {
+  display: flex;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-list li {
+  margin: 0 15px;
+}
+
+.navbar-list li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Contenu principal */
+.main-content {
+  padding: 20px;
+  background-color: #fafafa;
+  text-align: center;
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Cadre des statistiques */
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  text-align: center;
+  min-height: 150px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1d4ed8;
+}
+/* Container pour les graphiques linéaires, horizontalement alignés */
+.line-charts-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px; /* Ajoutez un peu d'espace au-dessus */
+}
+
+/* Cadre pour chaque graphique linéaire */
+.line-chart-frame {
+  width: 22%; /* Ajustez la largeur selon vos besoins */
+  text-align: center;
+}
+
+/* Ajustez l'espacement des graphiques circulaires également si nécessaire */
+.frames-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.chart-container{
+  background-color: #ffffff;
+}

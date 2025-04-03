@@ -1,0 +1,81 @@
+.food-prices-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Agrandir la colonne des années */
+.years-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 9%;
+}
+.year-title {
+  font-size: 1.2rem; /* ✅ Un peu plus petit mais visible */
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+}
+.year-stats {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 8px;
+  font-size: 0.95rem; /* ✅ Taille ajustée pour une meilleure lisibilité */
+}
+
+.year-stats li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 3px 0;
+  color: #444;
+}
+
+.icon {
+  font-size: 1.3rem; /* ✅ Légèrement réduit mais toujours visible */
+  color: #4CAF50;
+}
+
+.year-box {
+  
+  padding-top: 15px; /* ✅ Augmente la taille */
+  padding-bottom: 80px; /* ✅ Augmente la taille */
+  padding-left: 30px; /* ✅ Augmente la taille */
+  width: 190px; /* ✅ Largeur plus grande */
+  height: 120px; /* ✅ Hauteur plus grande */
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
+  margin-left: 24px;
+  background: #fff;
+}
+
+/* Agrandir les cadres des graphiques */
+.charts-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 24%;
+}
+
+.chart-box {
+  background-color: white;
+  padding: 30px; /* ✅ Plus d'espace autour du graphique */
+  border-radius: 12px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+  width: 500px; /* ✅ Plus large */
+  height: 400px; /* ✅ Plus haut */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chart-title {
+  text-align: center;
+  font-size: 22px; /* ✅ Texte plus grand */
+  font-weight: bold;
+  margin-bottom: 15px;
+}

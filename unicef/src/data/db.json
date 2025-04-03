@@ -1,0 +1,18 @@
+{
+    "malnutrition": [
+      {
+        "region": "Atsimo-Atsinanana",
+        "districts": [
+          { "name": "Manakara", "diseases": { "2023": { "Paludisme": 5, "Diarrhée": 8, "IRA": 3 } } },
+          { "name": "Vohipeno", "diseases": { "2023": { "Paludisme": 7, "Diarrhée": 6, "IRA": 4 } } }
+        ]
+      },
+      {
+        "region": "Atsimo-Andrefana",
+        "districts": [
+          { "name": "Toliara", "diseases": { "2023": { "Paludisme": 3, "Diarrhée": 4, "IRA": 2 } } }
+        ]
+      }
+    ]
+  }
+  

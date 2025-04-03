@@ -1,0 +1,9 @@
+{
+    "districts": [
+      { "id": 1, "region": "Atsimo-Atsinanana", "district": "Farafangana", "coords": [-22.8, 47.83], "malnutrition": 20, "category": "CRENI" },
+      { "id": 2, "region": "Atsimo-Atsinanana", "district": "Midongy-Sud", "coords": [-23.0, 47.0], "malnutrition": 18, "category": "CRENAS" },
+      { "id": 3, "region": "Vatovavy", "district": "Mananjary", "coords": [-21.2167, 48.3333], "malnutrition": 15, "category": "CRENI" },
+      { "id": 4, "region": "Fitovinany", "district": "Manakara", "coords": [-22.1333, 48.0167], "malnutrition": 17, "category": "CRENI" }
+    ]
+  }
+  

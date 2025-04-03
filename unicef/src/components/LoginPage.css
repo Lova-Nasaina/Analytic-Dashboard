@@ -1,0 +1,108 @@
+/* src/pages/LoginPage.css */
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #FAFDFE;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+  text-shadow: 0 0 10px rgba(21, 21, 21, 0.6);  /* Ombre lumineuse autour du texte */
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.6rem;
+  color: #34495e; /* Gris foncé neutre pour un ton sérieux et professionnel */
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-shadow: 0 0 8px rgba(21, 21, 21, 0.6);  /* Ombre lumineuse autour du texte */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #7f8c8d; /* Gris moyen pour un aspect plus doux */
+  font-weight: 500;
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #dcdfe1; /* Bordure gris clair neutre */
+  border-radius: 8px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #f5f7fa; /* Fond gris clair très doux */
+  text-shadow: 0 0 10px rgba(21, 21, 21, 0.6);  /* Ombre lumineuse autour du texte */
+}
+
+input:focus {
+  border-color: #5EB1EF; /* Vert clair et frais pour un focus agréable */
+  box-shadow: 0 0 8px rgba(26, 204, 213, 0.3);
+  outline: none;
+  background-color: #ffffff; /* Fond blanc au focus pour bien se détacher */
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color:#5EB1EF ; /* Vert professionnel et vibrant */
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #0ba6cd; /* Vert plus lumineux au survol */
+  transform: scale(1.05); /* Effet de zoom élégant au survol */
+}
+
+button:active {
+  background-color: #1f8e4d; /* Vert plus foncé au clic */
+}
+
+.error {
+  color: #e74c3c; /* Rouge professionnel mais discret pour les erreurs */
+  text-align: center;
+  font-size: 0.875rem;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .login-container {
+    padding: 20px;
+    margin-top: 10%;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}
+
+/* Fond de page */
+body {
+  background-color: #ecf0f1; /* Gris clair pour toute la page */
+  font-family: 'Arial', sans-serif;
+}
+
+.dashboard .dark {
+  background-color: #34495e; /* Fond sombre pour le thème foncé */
+}
+
+.dashboard .light {
+  background-color: #ffffff; /* Fond clair pour le thème clair */
+}

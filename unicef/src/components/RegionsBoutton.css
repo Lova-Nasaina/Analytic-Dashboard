@@ -1,0 +1,102 @@
+.disease-cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 15px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 8px #008FF519;
+  background: #FBFDFF;
+  
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color:#003362
+}
+
+.card p {
+  font-size: 18px;
+  color: #666;
+}
+
+
+.years{
+  font-size: 20px;
+  color: #003362;
+  font-weight: 600;
+  background-color: #FBFDFF;
+  border: none;
+  outline: none;
+}
+
+
+
+/* Conteneur principal qui affiche les deux graphiques côte à côte */
+.charts-containers {
+  display: flex;
+  margin:  20px;
+}
+
+/* Sous-conteneur gauche : Graphique en cercle */
+.doughnut-chart-container {
+  width: 30%;
+  /* margin-right: 20px;   */
+  margin-left: 20px;  
+  background: #FBFDFF;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  /* height: auto; */
+  align-items: center;
+  justify-content: center;
+  /* margin: 0;  */
+  
+  
+
+           /* Supprime les marges externes superflues */
+}
+
+/* Sous-conteneur droit : Graphique en barre */
+.line-chart-container {
+  width: 64%;          /* Occupe 70% de la largeur du conteneur parent */
+  padding: 20px;       /* Espacement interne */
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;           /* Supprime les marges externes superflues */
+}
+
+/* Styles pour les titres des graphiques */
+.doughnut-chart-container h3,
+.line-chart-container h3 {
+  text-align: center;
+  color: #003362;
+  margin-bottom: 10px;
+}
+
+/* Assure que les canevas des graphiques occupent toute la largeur du conteneur */
+.doughnut-chart-container canvas,
+.line-chart-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+
+
+

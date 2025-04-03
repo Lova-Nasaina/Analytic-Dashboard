@@ -1,0 +1,138 @@
+{
+  "Manakara": {
+    "2021": {
+      "Paludisme": 20,
+      "Diarrhée": 15,
+      "IRA": 10
+    },
+    "2022": {
+      "Paludisme": 18,
+      "Diarrhée": 12,
+      "IRA": 8
+    },
+    "2023": {
+      "Paludisme": 22,
+      "Diarrhée": 13,
+      "IRA": 9
+    }
+  },
+  "Vohipeno": {
+    "2021": {
+      "Paludisme": 25,
+      "Diarrhée": 14,
+      "IRA": 11
+    },
+    "2022": {
+      "Paludisme": 27,
+      "Diarrhée": 16,
+      "IRA": 12
+    },
+    "2023": {
+      "Paludisme": 23,
+      "Diarrhée": 17,
+      "IRA": 14
+    }
+  },
+  "Farafangana": {
+    "2021": {
+      "Paludisme": 28,
+      "Diarrhée": 19,
+      "IRA": 15
+    },
+    "2022": {
+      "Paludisme": 26,
+      "Diarrhée": 18,
+      "IRA": 14
+    },
+    "2023": {
+      "Paludisme": 30,
+      "Diarrhée": 20,
+      "IRA": 15
+    }
+  },
+  "Vangaindrano": {
+    "2021": {
+      "Paludisme": 19,
+      "Diarrhée": 17,
+      "IRA": 13
+    },
+    "2022": {
+      "Paludisme": 21,
+      "Diarrhée": 18,
+      "IRA": 14
+    },
+    "2023": {
+      "Paludisme": 24,
+      "Diarrhée": 16,
+      "IRA": 12
+    }
+  },
+  "Toliara": {
+    "2021": {
+      "Paludisme": 15,
+      "Diarrhée": 12,
+      "IRA": 9
+    },
+    "2022": {
+      "Paludisme": 17,
+      "Diarrhée": 14,
+      "IRA": 11
+    },
+    "2023": {
+      "Paludisme": 19,
+      "Diarrhée": 15,
+      "IRA": 10
+    }
+  },
+  "Sakaraha": {
+    "2021": {
+      "Paludisme": 23,
+      "Diarrhée": 20,
+      "IRA": 16
+    },
+    "2022": {
+      "Paludisme": 22,
+      "Diarrhée": 18,
+      "IRA": 15
+    },
+    "2023": {
+      "Paludisme": 24,
+      "Diarrhée": 19,
+      "IRA": 17
+    }
+  },
+  "Betioky": {
+    "2021": {
+      "Paludisme": 18,
+      "Diarrhée": 16,
+      "IRA": 13
+    },
+    "2022": {
+      "Paludisme": 20,
+      "Diarrhée": 17,
+      "IRA": 14
+    },
+    "2023": {
+      "Paludisme": 22,
+      "Diarrhée": 19,
+      "IRA": 16
+    }
+  },
+  "Ampanihy": {
+    "2021": {
+      "Paludisme": 27,
+      "Diarrhée": 14,
+      "IRA": 12
+    },
+    "2022": {
+      "Paludisme": 25,
+      "Diarrhée": 15,
+      "IRA": 13
+    },
+    "2023": {
+      "Paludisme": 28,
+      "Diarrhée": 17,
+      "IRA": 14
+    }
+  }
+}
